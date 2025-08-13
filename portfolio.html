@@ -13,6 +13,12 @@
                 text-align: center;
             }
 
+            .container {
+                max-width: 880px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
             .intro {
   display: flex;
   flex-direction: column;
@@ -30,6 +36,94 @@
   object-fit: cover;
   margin-bottom: 10px;
 }
+
+h1 {
+    margin: 15px 0 5px;
+    font-size: 2.2em;
+}
+
+h2{
+    color: teal;
+    border-bottom: 2px solid #4682b4;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: saddlebrown;
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: green;
+    margin: 10px 0 5px;
+    font-style: italic;
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cv-button {
+    display: inline-block;
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cv-button:hover {
+    background-color: #36648b;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.cv-button {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cv-button:hover {
+    background-color:darkgreen;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.cv-button:active {
+    transform: translateY(0);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: burlywood;
+    margin-top: 30px;
+}
+
+
 
 .about-section {
     text-align: center;
@@ -75,9 +169,8 @@ Currently training in HTML, CSS, JavaScript, and backend development. Building r
     <h4>Music Theory and Performance [2017-2018].</h4>
     Studied piano performance, music theory, and ensemble skills which 
     gave me experience performing in live settings and supporting worship teams.
-
- <a href="https://drive.google.com/file/d/1YrDoeYtttgTpf0QAcT8ARXqjoFOifyIf/view?usp=sharing" download>
-        <button>Download My CV</button>
+<br>
+ <a href="https://drive.google.com/file/d/1YrDoeYtttgTpf0QAcT8ARXqjoFOifyIf/view?usp=sharing" class="cv-button">Download My CV
     </a>
 </p>
 <h2>Interests.</h2>
